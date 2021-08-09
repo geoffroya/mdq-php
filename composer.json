@@ -1,12 +1,12 @@
 {
     "name": "renater/mdq",
-    "description": "",
+    "description": "Simple PHP app to serve static metadata for MDQ",
     "keywords": [
         "php",
         "mdq"
     ],
     "homepage": "http://mdq.federation.renater.fr",
-    "license": "proprietary",
+    "license": "GNU AFFERO GENERAL PUBLIC LICENSE",
     "authors": [
         {
             "name": "GIP RENATER",
@@ -14,13 +14,13 @@
         }
     ],
     "require": {
-        "php": ">=5.5",
-        "monolog/monolog": "*"
+        "php": ">=5.4",
+        "monolog/monolog": "^1.25"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
         "squizlabs/php_codesniffer": "~2.6",
-        "friendsofphp/php-cs-fixer": "~2.12"
+        "friendsofphp/php-cs-fixer": "~2.2"
     },
     "autoload": {
 
