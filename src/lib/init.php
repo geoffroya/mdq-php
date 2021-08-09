@@ -4,6 +4,7 @@ use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
 require_once(__DIR__ . '/../vendor/autoload.php');
+#require_once "phar://mdq-php.phar/vendor/autoload.php";
 
 if (isset($_SERVER{'MDQ_CONFIG'})) {
     require_once($_SERVER{'MDQ_CONFIG'});

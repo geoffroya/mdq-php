@@ -1,6 +1,7 @@
 <?php
 
 include(__DIR__ . '/lib/init.php');
+#require_once "phar://mdq-php.phar/init.php";
 
 global $logger;
 
