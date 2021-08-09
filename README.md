@@ -9,6 +9,18 @@ SAML Metadata are jsut delivered by the script, not processed.
 
 Processing/preparation of metadatas is done by a backend process
 
+## Build the app
+
+Install deps:
+```
+$ ./composer.phar install
+```
+
+Build app:
+```
+$ ./phar-composer-1.2.0.phar build . /srv/www/mdq/
+```
+
 ## Back-end
 
 The backend process is in charge of taking a federated metadafile, and splitting it in unit files
