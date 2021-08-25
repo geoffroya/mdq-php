@@ -25,6 +25,8 @@ $ ./phar-composer-1.2.0.phar build . /srv/www/mdq/
 
 The backend process is in charge of taking a federated metadafile, and splitting it in unit files
 
+Uses a modified version of https://bitbucket.software.geant.org/users/switch.haemmerle/repos/saml-tools/browse/xml-split.php as core of backend process
+
 ## Apache config
 
 Apache config is quite simple. The main point is to set the `AllowEncodedSlashes` directive, set to `NoDecode`.
