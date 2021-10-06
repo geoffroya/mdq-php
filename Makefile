@@ -1,5 +1,5 @@
-COMPOSER_FILE=composer-php5.json
-COMPOSER_LOCK=composer-php5.lock
+COMPOSER_FILE=composer.json
+COMPOSER_LOCK=composer.lock
 
 all: mdq.phar
 
