@@ -40,7 +40,7 @@ if (endsWith($_SERVER['PATH_INFO'], "/entities")) {
     // 4- Check if file exists
     if(!file_exists($mdFile)) {
         http_response_code(404);
-        exit("Unkonwn entityID ".$entityId);
+        exit("Unknown entityID ".$entityId);
     }
 }
 // 5- Return the file
